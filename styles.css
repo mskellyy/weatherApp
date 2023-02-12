@@ -1,0 +1,224 @@
+body {
+  background-image: url(img/daytime.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dark {
+  background-image: url(img/nightsun.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dark .container {
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.dark .card {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.dark .celsius {
+  color: white;
+}
+
+.dark .fahrenheit {
+  color: white;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.5);
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.theme-button {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.theme-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: darkgrey;
+}
+
+.dark .theme-button:hover {
+  background: rgba(255, 255, 255, 0.6);
+  border-color: black;
+  color: darkslategrey;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.weekdays {
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.card-title {
+  padding: 20px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.card-text {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.weekday-emoji {
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  padding-left: 60px;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-weight: 200;
+}
+
+h1 {
+  padding-left: 20px;
+  padding-bottom: 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+.comment {
+  padding-left: 50px;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+}
+
+.today-emoji {
+  padding-left: 40px;
+}
+
+.forecast {
+  font-weight: bold;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.time {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.date {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.city {
+  font-size: 25px;
+  float: inline-end;
+  font-family: "Raleway", sans-serif;
+}
+
+.today-details {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+
+.todayTemp {
+  font-size: 60px;
+}
+
+.celsius {
+  font-size: 20px;
+  color: darkslategrey;
+  text-decoration: none;
+}
+
+.line {
+  font-size: 20px;
+}
+
+.celsius:hover {
+  color: black;
+}
+
+.fahrenheit {
+  font-size: 20px;
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.fahrenheit:hover {
+  color: black;
+}
+
+form {
+  text-align: right;
+  display: inline;
+}
+
+.allButtons {
+  text-align: right;
+}
+
+.location {
+  text-align: right;
+  display: inline;
+}
+
+#currentLocation {
+  border-radius: 10px;
+}
+
+#currentLocation:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.gitLink {
+  color: white;
+}
+
+.gitLink:hover {
+  color: lightgrey;
+}
+
+h1 {
+  color: white;
+}

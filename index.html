@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js" integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,400&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+    <title>Show me the weather</title>
+    
+  </head>
+  <body>
+
+       <button class="theme-button">Change Scenery</button>
+
+    <div class="container">
+      <div class="allButtons">
+      <form id="search-bar">
+        <input
+        type="text"
+        placeholder="Search for a city"
+        autocomplete="off"
+        autofocus="on"
+        id="search-bar-input"
+        />
+
+        <input class="sumbitButton" type="submit" value="Search"/>
+      </form>
+
+      <button class="location" id="currentLocation">Current Location</button>
+      </div>
+     
+<h1>TODAY</h1>
+      <div class="grid">
+         <img src="img/linesun.png" width="150" alt="sunny" class="today-emoji">
+        <p class="city">Vancouver, BC</p>
+              <p class="date"> <span class="dayDate">Saturday</span>, <span class="month">June</span> <span id="date">11</span> <span class="year">2022 </span> <span class="time">  2:33pm</span></p>
+  
+            <h3><span class="todayTemp">30</span> <a href="#" class="celsius">°C </a><span class="line"> |</span><a href="#" class="fahrenheit">°F</a></h3>
+
+             <p class="today-details">Humidity: 76%</p>
+  
+        <p class="today-details">Wind: 24 km/h</p>
+
+           <p class="comment"><em>"Dont forget your sunblock!"</em></p>
+        
+ 
+      </div>
+
+    </br>
+<div class="row weekdays">
+    <div class="card-group">
+      <div class="card mx-1" style="width: 13rem">
+            <div class="card-body">
+        <img src="img/linesun.png" width="100" class="weekday-emoji">
+       
+        <h2 class="card-title">Sunday</h2>
+     
+        <p class="card-text">Max: 28°C</p>
+        <p class="card-text">Min: 16°C</p>
+        <p class="card-text forecast">Sunny</p>
+        </div>
+      </div>
+
+      <div class="card mx-1" style="width: 13rem">
+         <div class="card-body">
+        <img src="img/linesun.png" width="100" class="weekday-emoji">
+       
+        <h2 class="card-title">Monday</h2>
+
+        <p class="card-text">Max: 30°C</p>
+        <p class="card-text">Min: 22°C</p>
+        <p class="card-text forecast">Sunny</p>
+        </div>
+      </div>
+
+      <div class="card mx-1" style="width: 13rem">
+         <div class="card-body">
+        <img src="img/windy.png" width="100" class="weekday-emoji" >
+       
+        <h2 class="card-title">Tuesday</h2>
+
+        <p class="card-text">Max: 22°C</p>
+        <p class="card-text">Min: 16°C</p>
+        <p class="card-text forecast">Windy</p>
+        </div>
+      </div>
+
+      <div class="card mx-1" style="width: 13rem">
+         <div class="card-body">
+        <img src="img/rainyline.png" width="100" class="weekday-emoji">
+       
+        <h2 class="card-title">Wednesday</h2>
+
+        <p class="card-text">Max: 20°C</p>
+        <p class="card-text">Min: 14°C</p>
+        <p class="card-text forecast">Rainy</p>
+        </div>
+      </div>
+
+      <div class="card mx-1" style="width: 13rem">
+          <div class="card-body">
+        <img src="img/rainyline.png" width="100" class="weekday-emoji" >
+
+        <h2 class="card-title">Thursday</h2>
+
+        <p class="card-text">Max: 21°C</p>
+        <p class="card-text">Min: 12°C</p>
+        <p class="card-text forecast">Rainy</p>
+      </div>
+      </div>
+      </div>
+
+      </div>
+    </div>
+
+    <h6></h6>
+
+    <footer><a href="https://github.com/mskellyw/weatherApp" class="gitLink" target="_blank">Open-source Code</a> by Kelly 🎀 Using HTML, CSS, & JS
+    </br> 
+    </footer>
+
+
+
+<script src="script.js"></script>
+
+  </body>
+</html>
